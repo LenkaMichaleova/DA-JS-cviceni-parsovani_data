@@ -11,3 +11,4 @@ const dateInput = prompt("Zadej datum ve formátu ´DD-MM-YYY´: ")
 
 // document.body.innerHTML += `${parseData(dateInput)}`     // --> vypíše do stránky blbost
 console.log(parseData(dateInput))         // --> object je vidět rozepsaný v consoli (v Devtools dole)
+document.body.innerHTML = `<h1>Výsledek je v konzoli (v Devtools)</h1>`
